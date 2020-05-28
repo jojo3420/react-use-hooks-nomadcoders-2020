@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UseInputSample from "./components/UseInputSample";
+import UseFetchSample from "./components/UseFetchSample";
+import UseTabsSample from "./components/UseTabsSample";
+import UseEffectSample from "./components/useEffectSample";
+import UseTitleSample from "./components/UseTitleSample";
+import UseRefSample from "./components/UseRefSample";
+import UseClickSample from "./components/UseClickSample";
+import UseConfirmSample from "./components/UseConfirmSample";
+import UsePreventLeaveSample from "./components/UsePreventLeaveSample";
+import UseScreenLeaveSample from "./components/UseScreenLeave";
+import UseFadeInSample from "./components/UseFadeInSample";
+import UseNetworkSample from "./components/UseNetworkSample";
+import UseScrollSample from "./components/UseScrollSample";
+import UseFullScreenSample from "./components/UseFullScreenSample";
+import UseNotificationSample from "./components/UseNotificationSample";
+import UseAxiosSample from "./components/UseAxiosSample";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <UseInputSample/>
+      <UseFetchSample/>
+      <UseTabsSample/>
+      <UseEffectSample/>
+      <UseTitleSample/>
+      <UseRefSample/>
+      <UseClickSample/>
+      <UseConfirmSample/>
+      <UsePreventLeaveSample/>
+      <UseScreenLeaveSample />
+      <UseFadeInSample />
+      <UseNetworkSample />
+      <UseScrollSample />
+      <UseFullScreenSample />
+      <UseNotificationSample />
+      <UseAxiosSample />
     </div>
   );
 }
