@@ -18,7 +18,7 @@ import UseAxiosSample from "./components/UseAxiosSample";
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 나의 연습
 import UseInputSample2 from './useInput/UseInputSample2';
-
+import UseFetchSample2 from "./useFetch/useFetchSample2";
 
 function App() {
   return (
@@ -41,6 +41,7 @@ function App() {
       {/*<UseAxiosSample />*/}
       {/* /////////////////////////////////////*/}
       <UseInputSample2 />
+      <UseFetchSample2 />
 
     </div>
   );
