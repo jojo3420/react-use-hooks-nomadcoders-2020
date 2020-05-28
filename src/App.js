@@ -15,27 +15,33 @@ import UseScrollSample from "./components/UseScrollSample";
 import UseFullScreenSample from "./components/UseFullScreenSample";
 import UseNotificationSample from "./components/UseNotificationSample";
 import UseAxiosSample from "./components/UseAxiosSample";
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 나의 연습
+import UseInputSample2 from './useInput/UseInputSample2';
 
 
 function App() {
   return (
     <div>
-      <UseInputSample/>
-      <UseFetchSample/>
-      <UseTabsSample/>
-      <UseEffectSample/>
-      <UseTitleSample/>
-      <UseRefSample/>
-      <UseClickSample/>
-      <UseConfirmSample/>
-      <UsePreventLeaveSample/>
-      <UseScreenLeaveSample />
-      <UseFadeInSample />
-      <UseNetworkSample />
-      <UseScrollSample />
-      <UseFullScreenSample />
-      <UseNotificationSample />
-      <UseAxiosSample />
+      {/*<UseInputSample/>*/}
+      {/*<UseFetchSample/>*/}
+      {/*<UseTabsSample/>*/}
+      {/*<UseEffectSample/>*/}
+      {/*<UseTitleSample/>*/}
+      {/*<UseRefSample/>*/}
+      {/*<UseClickSample/>*/}
+      {/*<UseConfirmSample/>*/}
+      {/*<UsePreventLeaveSample/>*/}
+      {/*<UseScreenLeaveSample />*/}
+      {/*<UseFadeInSample />*/}
+      {/*<UseNetworkSample />*/}
+      {/*<UseScrollSample />*/}
+      {/*<UseFullScreenSample />*/}
+      {/*<UseNotificationSample />*/}
+      {/*<UseAxiosSample />*/}
+      {/* /////////////////////////////////////*/}
+      <UseInputSample2 />
+
     </div>
   );
 }
