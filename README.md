@@ -3,9 +3,9 @@
 Collection of good React Hooks ready to install with YARN
 
 - 1. [O] useInput  1: OK
-- 2. [O] useFetch
-- 3. [O] useTabs
-- 4. [O] useTitle
+- 2. [O] useFetch  1: OK
+- 3. [O] useTabs   1: OK 
+- 4. [O] useTitle  1: OK 
 - 5. [O] usePageLeave
 - 6. [O] useClick
 - 7. [O] useFadeIn
