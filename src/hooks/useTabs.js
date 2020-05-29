@@ -18,7 +18,7 @@ export default function useTabs(initialIndex, list) {
     throw new Error('list 가 비어 있습니다. ' + list.toString());
   }
   return {
-    tab: list[index],
+    tab: list[index], // 현재 선택된 탭 리턴
     setIndex,
   }
 }
