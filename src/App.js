@@ -21,6 +21,7 @@ import UseInputSample2 from './useInput/UseInputSample2';
 import UseFetchSample2 from "./useFetch/useFetchSample2";
 import UseTabSample2 from "./useTab/UseTabSample2";
 import UseTitleSample2 from "./useTitle/UseTitleSample2";
+import UseReducerSample from "./useReducer/UseReducerSample";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <UseFetchSample2 />
       <UseTabSample2 />
       <UseTitleSample2 />
+      <UseReducerSample />
 
     </div>
   );
