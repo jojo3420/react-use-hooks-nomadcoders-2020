@@ -14,7 +14,7 @@ import UseNetworkSample from "./components/UseNetworkSample";
 import UseScrollSample from "./components/UseScrollSample";
 import UseFullScreenSample from "./components/UseFullScreenSample";
 import UseNotificationSample from "./components/UseNotificationSample";
-import UseAxiosSample from "./components/UseAxiosSample";
+import UseAxiosSample from "./useAxios/UseAxiosSample";
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 나의 연습
 import UseInputSample2 from './useInput/UseInputSample2';
@@ -23,7 +23,7 @@ import UseTabSample2 from "./useTab/UseTabSample2";
 import UseTitleSample2 from "./useTitle/UseTitleSample2";
 import UseReducerSample from "./useReducer/UseReducerSample";
 import UseMemoSample from "./useMemo/useMemoSample";
-
+import UseAxiosSample2 from "./useAxios/UseAxiosSample2";
 
 
 function App() {
@@ -52,6 +52,7 @@ function App() {
       <UseTitleSample2 />
       <UseReducerSample />
       <UseMemoSample />
+      <UseAxiosSample2 />
 
     </div>
   );
